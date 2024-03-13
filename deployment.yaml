@@ -20,6 +20,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hacked-app
+  namespace: hacked
 spec:
   replicas: 3
   selector:
